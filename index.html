@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Seven Segment Display</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+        <h1>Seven Segment Display</h1>
+        <h3 class="biodata">Nafis Asalavfaliq Aswad</h3>
+        <h3 class="biodata">D121231050</h3>
+    </header>
+    <div class="container">
+      <center>
+          <div class="output">
+              <h2>Output</h2>
+              <span class="a"></span>
+              <span class="b"></span>
+              <span class="c"></span>
+              <span class="d"></span>
+              <span class="e"></span>
+              <span class="f"></span>
+              <span class="g"></span>
+          </div>
+    </center>
+        <div>
+        <table>
+          <thead>
+            <tr>
+              <th colspan="4">BINARY</th>
+              <th colspan="7">SEVEN SEGMENT</th>
+            </tr>
+            <tr>
+              <th>W</th>
+              <th>X</th>
+              <th>Y</th>
+              <th>Z</th>
+              <th>A</th>
+              <th>B</th>
+              <th>C</th>
+              <th>D</th>
+              <th>E</th>
+              <th>F</th>
+              <th>G</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="tombol">
+            <button onclick="output1()">1</button>
+            <button onclick="output2()">2</button>
+            <button onclick="output3()">3</button>
+            <button onclick="output4()">4</button>
+            <button onclick="output5()">5</button>
+            <button onclick="output6()">6</button>
+            <button onclick="output7()">7</button>
+            <button onclick="output8()">8</button>
+            <button onclick="output9()">9</button>   
+            <button onclick="output0()">0</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

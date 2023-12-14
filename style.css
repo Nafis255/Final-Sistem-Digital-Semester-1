@@ -1,0 +1,164 @@
+header {
+  font-family: Acme;
+  text-align: center;
+  background-color: #020202;
+}
+.biodata {
+
+  margin: 0px;
+}
+body {
+  font-family: Acme;
+  margin: 0px;
+  background-color: #001d3d;
+  color: white;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+table {
+  width: 100%;
+  margin-top: 170px;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+thead th {
+  background-color: #ffc300;
+  border: 1px solid #fff;
+  padding: 8px;
+  text-align: center;
+}
+
+tbody td {
+  border: 1px solid #fff;
+  padding: 8px;
+  text-align: center;
+}
+.tombol {
+  display: grid;
+  grid-template-columns: repeat(5, 50px);
+  grid-gap: 5px;
+  margin-bottom: 50px;
+}
+button {
+  font-family: Acme;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #ffc300;
+  box-shadow: 0 0 5px #ffc300;
+  background-color: #003566;
+  font-size: 1.2em;
+  color: #ffc300;
+  cursor: pointer;
+}
+.output {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 25px;
+}
+
+/*  ====== SEVEN SEGMEN ======== */
+
+.a {
+  width: 110px; /* Lebar persegi panjang */
+  height: 15px; /* Tinggi persegi panjang */
+  background: linear-gradient(135deg, transparent 10px, black 10px),
+    /* Gradien sudut kiri atas */
+      linear-gradient(-135deg, transparent 10px, black 10px),
+    /* Gradien sudut kanan atas */
+      linear-gradient(45deg, transparent 10px, black 10px),
+    /* Gradien sudut kiri bawah */
+      linear-gradient(-45deg, transparent 10px, black 10px); /* Gradien sudut kanan bawah */
+  background-size: 50% 50%; /* Ukuran gradien */
+  background-position: top left, top right, bottom left, bottom right; /* Posisi gradien */
+  background-repeat: no-repeat; /* Hindari pengulangan gradien */
+  transform: translate(0px, 0px);
+}
+
+.b {
+  width: 110px; 
+  height: 15px; 
+  background: linear-gradient(135deg, transparent 10px, black 10px),
+      linear-gradient(-135deg, transparent 10px, black 10px),
+      linear-gradient(45deg, transparent 10px, black 10px),
+      linear-gradient(-45deg, transparent 10px, black 10px); 
+  background-size: 50% 50%; 
+  background-position: top left, top right, bottom left, bottom right;
+  background-repeat: no-repeat; 
+  transform: rotate(90deg) translate(40px, -50px); 
+}
+
+.c {
+  width: 110px; 
+  height: 15px; 
+  background: linear-gradient(135deg, transparent 10px, black 10px),
+      linear-gradient(-135deg, transparent 10px, black 10px),
+      linear-gradient(45deg, transparent 10px, black 10px),
+      linear-gradient(-45deg, transparent 10px, black 10px); 
+  background-size: 50% 50%; 
+  background-position: top left, top right, bottom left, bottom right; 
+  background-repeat: no-repeat; 
+  transform: rotate(90deg) translate(130px, -50px); 
+}
+
+.d {
+  width: 110px; 
+  height: 15px;
+  background: linear-gradient(135deg, transparent 10px, black 10px),
+      linear-gradient(-135deg, transparent 10px, black 10px),
+      linear-gradient(45deg, transparent 10px, black 10px),
+      linear-gradient(-45deg, transparent 10px, black 10px); 
+  background-size: 50% 50%; 
+  background-position: top left, top right, bottom left, bottom right; 
+  background-repeat: no-repeat; 
+  transform: translate(0px, 170px); 
+}
+
+.e {
+  width: 110px; 
+  height: 15px; 
+  background: linear-gradient(135deg, transparent 10px, black 10px),
+      linear-gradient(-135deg, transparent 10px, black 10px),
+      linear-gradient(45deg, transparent 10px, black 10px),
+      linear-gradient(-45deg, transparent 10px, black 10px); 
+  background-size: 50% 50%; 
+  background-position: top left, top right, bottom left, bottom right; 
+  background-repeat: no-repeat; 
+  transform: rotate(90deg) translate(100px, 50px); 
+}
+
+.f {
+  width: 110px; 
+  height: 15px; 
+  background: linear-gradient(135deg, transparent 10px, black 10px),
+      linear-gradient(-135deg, transparent 10px, black 10px),
+      linear-gradient(45deg, transparent 10px, black 10px),
+      linear-gradient(-45deg, transparent 10px, black 10px); 
+  background-size: 50% 50%; 
+  background-position: top left, top right, bottom left, bottom right; 
+  background-repeat: no-repeat; 
+  transform: rotate(90deg) translate(-20px, 50px); 
+}
+
+.g {
+  width: 110px; 
+  height: 15px; 
+  background: linear-gradient(135deg, transparent 10px, black 10px),
+    linear-gradient(-135deg, transparent 10px, black 10px),
+    linear-gradient(45deg, transparent 10px, black 10px),
+    linear-gradient(-45deg, transparent 10px, black 10px);
+  background-size: 50% 50%; 
+  background-position: top left, top right, bottom left, bottom right;
+  background-repeat: no-repeat; 
+  transform: translate(0px, 17px); 
+}
